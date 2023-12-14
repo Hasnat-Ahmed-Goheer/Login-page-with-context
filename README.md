@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+# Simple Login Page with React Context
+![GitHub repo size](https://img.shields.io/github/repo-size/Hasnat-Ahmed-Goheer/Login-page-with-context)
+![GitHub last commit](https://img.shields.io/github/last-commit/Hasnat-Ahmed-Goheer/Login-page-with-context?color=blue)
+![GitHub stars](https://img.shields.io/github/stars/Hasnat-Ahmed-Goheer/Login-page-with-context)
+![GitHub forks](https://img.shields.io/github/forks/Hasnat-Ahmed-Goheer/Login-page-with-context)
+![GitHub issues](https://img.shields.io/github/issues/Hasnat-Ahmed-Goheer/Login-page-with-context)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/Hasnat-Ahmed-Goheer/Login-page-with-context)
+![Static Badge](https://img.shields.io/badge/%20build-passing-brightgreen)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+![Last Updated](https://img.shields.io/github/last-commit/Hasnat-Ahmed-Goheer/Login-page-with-context?label=Last%20Updated&color=yellow)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
-In the project directory, you can run:
 
-### `npm start`
+## Description
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The **Simple Login Page with React Context** is a basic web application that demonstrates user authentication and authorization using React Context. It includes a login page, user authentication, and the ability to switch between user and admin views.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+- User authentication using React Context.
+- Separate views for regular users and administrators.
+- Simple component loaders to indicate the active view.
+- Logout functionality for both users and admins.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Usage
 
-### `npm run build`
+1. Clone this repository to your local machine.
+```
+git clone https://github.com/Hasnat-Ahmed-Goheer/Login-page-with-context.git
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Navigate to the project directory.
+```
+cd Simple-Login-Page-React-Context
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Install dependencies.
+```
+npm install
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. Start the development server.
+```
+npm start
+```
 
-### `npm run eject`
+5. Open your web browser and go to http://localhost:3000.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+6. You'll see the login page initially.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+7. Use the provided login credentials to log in as a user or an admin.
+- User Credentials:
+    - Username: user
+    - Password: password
+- Admin Credentials:
+    - Username: admin
+    - Password: adminpassword
+     
+8. After logging in, you can switch between the user and admin views.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+9. In each view, you will see a simple component loader along with a logout button.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+10. Click the "Logout" button to log out and return to the login page.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Contact
+If you have any suggestions and queries, reach out to me at [ch.hsyahmedgoheer@hotmail.com](mailto:ch.hsyahmedgoheer@hotmail.com).
